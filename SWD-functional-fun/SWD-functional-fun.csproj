@@ -6,4 +6,8 @@
     <RootNamespace>SWD_functional_fun</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\RomertalLib\RomertalLib.csproj" />
+  </ItemGroup>
+
 </Project>

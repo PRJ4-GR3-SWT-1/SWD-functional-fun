@@ -1,4 +1,5 @@
 ﻿using System;
+using RomertalLib;
 
 namespace SWD_functional_fun
 {
@@ -6,7 +7,12 @@ namespace SWD_functional_fun
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Type Number:");
+            while (true) { 
+                var input= Console.ReadLine();
+                var ar = new Arabic(int.Parse(input));
+                Console.WriteLine(ar.ToRoman());
+            }
         }
     }
 }
