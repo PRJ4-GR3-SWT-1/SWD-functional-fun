@@ -27,8 +27,8 @@ namespace romertalTest
         [TestCase(3000, "MMM")]
         public void TestRomenConversion(int number, string expected)
         {
-            var arabic = new Arabic(number);
-            Assert.AreEqual(expected, arabic.ToRoman());
+            var uut = new ArabicImutable(number);
+            Assert.AreEqual(expected, uut.ToRoman(number));
 
         }
     }

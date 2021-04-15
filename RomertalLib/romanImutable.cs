@@ -3,18 +3,18 @@ using System.Linq;
 
 namespace RomertalLib
 {
-    public class Arabic
+    public class ArabicImutable
     {
         private readonly int _arabicNum;
-        public Arabic(int arabicNumIn)
+        public ArabicImutable(int arabicNumIn)
         {
             _arabicNum = arabicNumIn;
         }
 
-        public string ToRoman()
+        public string ToRoman(int input)
         {
             var result = new String("");
-            int tal = _arabicNum;
+            int tal = input;
             while (tal / 1000 > 0)
             {
                 result += "M";
@@ -63,7 +63,7 @@ namespace RomertalLib
                 result += "C";
                 tal -= 100;
             }
-            while (tal /50  > 0)
+            while (tal / 50 > 0)
             {
                 result += "L";
                 tal -= 50;
@@ -73,7 +73,7 @@ namespace RomertalLib
                 while (tal % 50 > 30)
                 {
                     result += "X";
-                    tal+=10;
+                    tal += 10;
                 }
 
                 result += "L";
@@ -112,14 +112,14 @@ namespace RomertalLib
                 result += "V";
                 tal -= 5;
             }
-            
+
             while (tal > 0)
             {
-                result+="I";
+                result += "I";
                 tal--;
             }
 
-            
+
             return result;
         }
     }

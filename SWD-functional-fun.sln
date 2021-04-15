@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomertalLib", "RomertalLib\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "romertalTest", "romertalTest\romertalTest.csproj", "{E4DB6A9B-1266-4575-A10B-628D29D25E67}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImutableData", "ImutableData\ImutableData.csproj", "{1A658875-146A-40BE-9B3A-3E42E0502C2F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{E4DB6A9B-1266-4575-A10B-628D29D25E67}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E4DB6A9B-1266-4575-A10B-628D29D25E67}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E4DB6A9B-1266-4575-A10B-628D29D25E67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A658875-146A-40BE-9B3A-3E42E0502C2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A658875-146A-40BE-9B3A-3E42E0502C2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A658875-146A-40BE-9B3A-3E42E0502C2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A658875-146A-40BE-9B3A-3E42E0502C2F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
